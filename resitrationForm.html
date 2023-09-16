@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <!-- style section -->
+    <style>
+        body{
+            background-color:rgb(202, 196, 144);
+        }
+        h1{
+            color:orange;
+            margin: 0px 500px 0px 500px ;
+            border-style: solid;
+            border-width: 1px 0px ;
+            border-color: black;
+            background-color: thistle;
+        }
+        table{
+            margin: 10px 300px ;
+        }
+        #firstname{
+            padding: 0px 350px 0px 0px;
+        }
+        input[type="checkbox"]{
+        background-color: rgb(255,38,0);
+        border: 1px;
+        }
+       
+    </style>
+</head>
+<body>
+    <body>
+        <center><h1>Application Form</h1></center>
+        <fieldset >
+          <legend>Registration Form</legend>
+        <form>
+            <table >
+                <tbody>
+                    <tr>
+                        <td id="firstname">
+            <span >
+                <label> First Name</label>
+                <div>
+                    <span><input type="text" placeholder="Enter Only First Name" autofocus></span>
+                </div>
+            </span>
+                        </td>
+            <td>
+            <span id="last">
+                <label for="">Last NAme</label>
+                <div>
+                    <span><input type="text" placeholder=" Enter Only Last Name " autofocus></span>
+                    </div>
+            </span>
+            </td>
+                    </tr>
+                    <tr>
+                        <td>
+            <span >
+                <label> Mobile Number</label>
+                <div>
+                    <span><input type="number" placeholder="0000 00 0000" autofocus min="10"></span>
+                </div>
+            </span>
+                        </td>
+            <td>
+            <span>
+                <label for="">Alternate Mobile Number</label>
+                <div>
+                    <span><input type="number" placeholder=" 0000 00 0000" autofocus></span>
+                    </div>
+            </span>
+            </td>
+                    </tr>
+                    <tr>
+                        <td>
+            <span >
+                <label>Email ID </label>
+                <div>
+                    <span><input type="email" placeholder="abcd@gmail.com"></span>
+                </div>
+            </span>
+                        </td>
+            <td>
+            <span>
+                <label for="">Password</label>
+                <div>
+                    <span><input type="password" placeholder="Enter The Correct Password" autofocus></span>
+                    </div>
+            </span>
+            </td>
+                    </tr>
+                    <tr>
+                        <td>
+            <span >
+                <label> Select Gender</label>
+                <div>
+                    <span><input type="radio" > Male
+                    <input type="radio">Female
+                <input type="radio">Other</span>
+                    </div>
+            </span>
+                        </td>
+            <td>
+            <span>
+                <label for="">Known Tools Techonology</label>
+                <div>
+                    <span>
+                    <input type="checkbox"  value="Angular" checked>Angular 
+                    <input type="checkbox" value="React" checked >React
+                    <input type="checkbox" value="Javascript" checked >Javascript
+                    <input type="checkbox" value=" Python">Python
+                    <input type="checkbox" value="GIT" checked> GIT
+                </span>
+                    </div>
+            </span>
+            </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+        </fieldset>                   
+</body>
+</html>
